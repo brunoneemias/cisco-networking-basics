@@ -27,6 +27,3 @@ O curso aborda os fundamentos essenciais das redes de computadores, com foco na 
 - Cisco Packet Tracer
 - Terminal CLI (Command Line Interface)
 - Documentação oficial da Cisco
-
-## 📂 Estrutura
-
