@@ -1,0 +1,45 @@
+# 🧪 Lab 13.3.2 – Usar Ping e Traceroute para Testar a Conectividade da Rede
+
+Este laboratório tem como objetivo utilizar os comandos **ping** e **traceroute** para verificar a conectividade entre dispositivos em uma rede IPv4 e IPv6, identificando falhas de comunicação e analisando o caminho dos pacotes.
+
+## 🎯 Objetivos do Laboratório
+
+- Testar a conectividade entre dispositivos usando ping
+- Utilizar traceroute para mapear o caminho dos pacotes
+- Diagnosticar falhas de rede e corrigir configurações
+- Compreender o papel do ICMP na verificação de conectividade
+
+## 🛠️ Etapas Realizadas
+
+### Parte 1: Testes com Ping
+
+- Execução de `ping` entre PCs e roteadores
+- Testes entre dispositivos da mesma sub-rede e sub-redes diferentes
+- Análise de respostas ICMP (sucesso ou falha)
+- Verificação de tempo de resposta e perda de pacotes
+
+### Parte 2: Testes com Traceroute
+
+- Execução de `tracert` (Windows) ou `traceroute` (roteadores Cisco)
+- Identificação dos saltos intermediários entre origem e destino
+- Verificação de roteadores e caminhos utilizados
+- Análise de tempo por salto e possíveis interrupções
+
+### Parte 3: Diagnóstico e Correção
+
+- Verificação de endereços IP e gateways com `ipconfig` e `show ip interface brief`
+- Identificação de interfaces inativas ou mal configuradas
+- Ajuste de configurações IP, máscara e gateway
+- Repetição dos testes após correções
+
+## 🧰 Ferramentas Utilizadas
+
+- Cisco Packet Tracer
+- Terminal CLI (PCs e roteadores)
+- Comandos: `ping`, `traceroute`, `tracert`, `ipconfig`, `show ip interface`, `show ipv6 interface`, `show ip route`, `show ipv6 route`
+
+## 📎 Arquivos
+
+- `lab-13.3.2.pkt` – Arquivo do Packet Tracer com a topologia configurada
+- `README.md` – Este documento com a descrição do laboratório
+- Capturas de tela dos testes e correções realizadas 
